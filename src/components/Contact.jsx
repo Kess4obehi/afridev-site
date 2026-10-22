@@ -1,7 +1,7 @@
-function Contacts() {
+function Contact() {
     return (
-        <section>Contacts</section>
+        <section>Contact</section>
     );
 }
 
-export default Contacts;
+export default Contact;
