@@ -9,7 +9,7 @@ function Navbar() {
             <a href="/">
                 <img src={logo} alt="Afridev logo" className="logo" />
             </a>
-            <div className="links">
+            <div className="navbar-right">
                 <nav className="navbar-links">
                     <ul>
                         <li><a href="#home" className="current">Home</a></li>
@@ -24,7 +24,7 @@ function Navbar() {
                     <img src={twitter} alt="Twitter" /> 
                     </a>
                     <a href="#">
-                        <img src={linkedin} alt="Linkedin" />
+                        <img src={linkedin} alt="LinkedIn" />
                     </a>
                 </div>
             </div>
