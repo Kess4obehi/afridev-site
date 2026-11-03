@@ -12,11 +12,13 @@
 
 .navbar-right{
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
     align-items: center;
 }
 
 .navbar-links ul {
+    display: flex;
+    gap: 8px;
     list-style: none;
 }
 
@@ -29,5 +31,11 @@
 
 .navbar-links a.current {
     font-weight: 600;
+    color: #FDFDFD;
+}
+
+.navbar-social {
+    display: flex;
+    gap: 16px;
 }
 
