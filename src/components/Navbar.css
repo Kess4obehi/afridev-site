@@ -22,17 +22,24 @@
     list-style: none;
 }
 
+
 .navbar-links a {
     font-weight: 400;
     text-decoration: none;
     font-size: 14px;
     color: var(--color-text);
+    transition: color 0.2s ease;
 }
+.navbar-links a:hover {
+    color: red;
+}  
+
 
 .navbar-links a.current {
     font-weight: 600;
-    color: #FDFDFD;
-}
+    color: var(--color-heading);
+}                                                         
+
 
 .navbar-social {
     display: flex;
