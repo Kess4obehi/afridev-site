@@ -30,16 +30,16 @@
     color: var(--color-text);
     transition: color 0.2s ease;
 }
-.navbar-links a:hover {
-    color: red;
-}  
-
 
 .navbar-links a.current {
     font-weight: 600;
     color: var(--color-heading);
 }                                                         
 
+.navbar-links a:hover {
+    color: var(--color-heading);
+    font-weight: 700;
+}  
 
 .navbar-social {
     display: flex;
