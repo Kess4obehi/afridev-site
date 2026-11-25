@@ -1,4 +1,5 @@
 import './Hero.css'
+import hero1 from '../assets/hero-1.jpg'
 
 function Hero() {
     return (
@@ -11,6 +12,9 @@ function Hero() {
                 <a className="btn" href="#contact">
                     Contact Us
                 </a>
+            </div>
+            <div className="hero-images">
+                <img src={hero1} alt="" className='hero1'/>
             </div>
         </section>
     );
