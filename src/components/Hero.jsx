@@ -1,5 +1,6 @@
 import './Hero.css'
-import hero1 from '../assets/hero-1.jpg'
+import heroPhoto1 from '../assets/hero-1.jpg'
+import heroPhoto2 from '../assets/hero-2.jpg'
 
 function Hero() {
     return (
@@ -14,7 +15,8 @@ function Hero() {
                 </a>
             </div>
             <div className="hero-images">
-                <img src={hero1} alt="" className='hero1'/>
+                <img src={heroPhoto1} alt="" className="hero-photo hero-photo-1"/>
+                <img src={heroPhoto2} alt="" className="herp-photo hero-photo-2"/>
             </div>
         </section>
     );
